@@ -1,0 +1,72 @@
+<html>
+<head>
+    <link href="css/projectstyle.css" rel="stylesheet" type="text/css" />
+    <style>
+        header {
+            background-color: green;
+        }
+    </style>
+</head>
+
+<body>
+    <header>
+        <div id="content1">
+            <h1>TASK MANAGER</h1>   
+            <div class="home">
+                <a href="#"><img src="images/Icon.png"></a>
+            </div>
+        </div>
+    </header>
+
+    <nav>
+        <div id="content2" class="flex">
+            <div class="flex-container">
+                <div>
+                    <!--<h3>Hello, world!</h3>--><h3>Others</h3>
+                    <h5 class="card-title"><input type='text' id='name' placeholder="Task Name"></h5>
+                    <p class="card-text"><input type='text' id='description' placeholder="Task Description"></p>
+                    <p class="card-title"><label for='assigned-to'>Assigned To:</label><select id='asigned-to'>
+                        <option value="peter">Peter</option>
+                        <option value="peter">Paul</option>
+                        <option value="peter">Alan</option>
+                        <option value="peter">Alex</option>
+                    </select></p>
+                    <p class="card-text"><label for='Due-date'>Assigned To:</label><input type='date' id='due-date'></p>
+                    <div><a href="#" class="btn btn-primary">DONE</a></div>
+                </div>
+               
+                <div>
+                    <h3 class="card-title">TASK</h3>
+                    <p class="card-text">Task Description: This is the details.</p>
+                    <p class="card-text">Assigned To: Paul</p>
+                    <p class="card-text">14/04/2021</p>
+                    <p class="card-text"><label for='status'>Status:</label><select id='status'>
+                        <option value="TODO">TODO</option>
+                        <option value="IN PROGERSS">IN PROGERSS</option>
+                        <option value="REVIEW">REVIEW</option>
+                        <option value="DONE">DONE</option>
+                    </select></p>
+                    <div><a href="#" class="btn btn-primary">ADD</a></div>
+                </div>
+                <!--
+                <div>
+                    <h3>Other</h3>
+                    <textarea id="extra" name="extra" rows="5" cols="20">Today very good</textarea>
+                    <a href="#"><img src="images/heart.svg"></a>
+                    <a href="#"><img src="images/pencil-fill.svg"></a>
+                </div>
+            -->
+            </div>
+    </nav>
+    <!--
+    <footer>
+        <div class="loge">
+            <a href="#"><img src="images/plus-circle.svg"></a>
+        </div>
+    </footer>
+    -->
+        
+
+</body>
+
+</html>
