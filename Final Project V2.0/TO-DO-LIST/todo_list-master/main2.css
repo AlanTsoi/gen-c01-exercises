@@ -1,0 +1,129 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700&display=swap');
+
+/* Base */
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+/*Sidebar*/
+
+.checkbtn{
+    font-size: 30px;
+    color: red;
+    float: right;
+    line-height: 80px;
+    margin-right: 40px;
+
+}
+
+.sidebar{
+    background: #0082e6;
+    height: 100%;
+    width: 100%;
+}
+
+.sidebar .header ul{
+    float: left;
+    margin-left: 20px;
+}
+
+.sidebar .header ul li{
+    display: inline-block;
+    line-height: 80px;
+    margin: 0 5px;
+    color: black;
+    font-size: 17px;
+    padding: 7px 13px;
+    border-radius: 3px;
+    text-transform: uppercase;
+}
+
+.sidebar-item.active {
+    font-weight: bold;
+}
+
+.sidebar-item:first-child {
+    margin-top: 0;
+}
+
+/* Sidebar List */
+.sidebar-list {
+    padding: 1.6rem;
+}
+
+.sidebar-item {
+    display: inline-flex;
+    align-items: center;
+    margin: 16px 0;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+.sidebar-item.active {
+    font-weight: bold;
+}
+
+.sidebar-item:first-child {
+    margin-top: 0;
+}
+
+.sidebar-color {
+    border: none;
+    width: 25px;
+    margin-left: auto;
+    cursor: pointer;
+}
+
+/* Sidebar Form */
+.sidebar-form .form-control {
+    margin: 10px 0;
+}
+
+.sidebar-form input {
+    border: 0;
+    width: 100%;
+    padding: 3px 0;
+    font-size: 16px;
+    background-color: transparent;
+}
+
+.sidebar-form input:focus {
+    outline: none;
+}
+
+/*Main*/
+.main{
+    background: yellow;
+    height: 100%;
+    width: 100%;
+}
+
+/*app*/
+.header-title {
+    font-size: 2rem;
+    font-weight: bold;
+    margin: 10px 0;
+    padding: 0 100px;
+}
+
+/* Utilities */
+.btn {
+    background-color: var(--primary-color);
+    color: var(--light-color);
+    display: inline-block;
+    padding: 12.50px 30px;
+    cursor: pointer;
+    border-radius: 5px;
+    border: none;
+}
+
+.btn:hover {
+    transform: scale(0.98);
+}
+
+.btn-primary {
+    background-color: var(--primary-color);
+    color: var(--light-color);
+}

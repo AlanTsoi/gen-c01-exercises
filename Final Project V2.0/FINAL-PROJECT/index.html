@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="resources/css/style.css" type="text/CSS" rel="stylesheet">
+    <script defer src="login.js"></script>
+</head>
+
+<!-- Log in -->
+<form action="action_page.php" method="post">
+    <div class="imgcontainer">
+        <img src="resources/images/Icon.png" style="width: 20%">
+    </div>
+    <div class="name">
+        <p><b>Task Manager</b></p>
+    </div>
+
+    <div class="greeting">
+        <p><b>Sign In</b></p>
+    </div>
+    <div class="greeting2">
+        <p>Hi there! Nice to see you again.</p>
+    </div>
+</form>
+
+
+<div id="error"></div>
+<form id="form" action="main.html" method="GET">
+    <div class="container">
+        <div class="group">
+            <label for="name"><b>Email</b></label>
+            <input id="name" name="name" type="text" placeholder="example@email.com" required>
+            <span class="highlight"></span>
+            <span class="bar"></span>
+        </div>
+
+        <div class="group">
+            <label for="password"><b>Password</b></label>
+            <input id="password" name="password" type="password" placeholder="password" required>
+            <span class="highlight"></span>
+            <span class="bar"></span>
+        </div>
+        <button type="submit" class="sibtn"><b>Sign In</b></button>
+</form>
+
+
+
+<div class="rmbme"><label><input type="checkbox" checked="checked" name="remember"> Remember me</label></div>
+
+<form class="form form--hidden" id="createAccount">
+    <h1 class="form__title">Create Account</h1>
+    <div class="form__message form__message--error"></div>
+    <div class="form__input-group">
+        <input type="text" id="signupUsername" class="form__input" autofocus placeholder="Username">
+        <div class="form__input-error-message"></div>
+    </div>
+    <div class="form__input-group">
+        <input type="text" class="form__input" autofocus placeholder="Email Address">
+        <div class="form__input-error-message"></div>
+    </div>
+    <div class="form__input-group">
+        <input type="password" class="form__input" autofocus placeholder="Password">
+        <div class="form__input-error-message"></div>
+    </div>
+    <div class="form__input-group">
+        <input type="password" class="form__input" autofocus placeholder="Confirm password">
+        <div class="form__input-error-message"></div>
+    </div>
+    <button class="form__button" type="submit">Continue</button>
+    <p class="form__text">
+        <a class="form__link" href="./" id="linkLogin">Already have an account? Sign in</a>
+    </p>
+</form>
+</form>
+
+</div>
+</form>
+
+
+</main>
+
+<footer>
+    <div><button type="button" class="fgtbtn">
+            <p style="color:grey">Forgot Password?</p>
+        </button></div>
+    <div class="links">
+        <p><button type="button" class="signupbtn">Sign Up</button></p>
+    </div>
+</footer>
+</body>
+
+</html>
